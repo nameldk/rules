@@ -1,7 +1,7 @@
 /*
 hostname = motibang.com
 # motibang
-^https?://motibang.com.+?/api/.+ url script-response-body motibang.js
+^https?://motibang.com.+/api/.+ url script-response-body https://raw.githubusercontent.com/nameldk/rules/master/qx/js/motibang.js
 */
 
 const url = $request.url;
