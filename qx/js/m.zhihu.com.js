@@ -1,4 +1,8 @@
-
+/**
+hostname = www.zhihu.com
+# better zhihu m
+^https://www.zhihu.com/question/ url script-response-body https://raw.githubusercontent.com/nameldk/rules/master/qx/js/m.zhihu.com.js
+*/
 let modifiedBody = $response.body;
 let modifiedHeaders = $response.headers;
 
