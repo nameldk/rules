@@ -1,7 +1,7 @@
 /*
 from:https://raw.githubusercontent.com/sirsunknight/QuantumultX/master/Scripts/Baimiao.js
 hostname = baimiao.uzero.cn
-^https?:\/\/baimiao\.uzero\.cn\/api\/v\d\.user\/appLaunchWithUser$ url script-response-body script-response-body https://raw.githubusercontent.com/nameldk/rules/master/qx/js/baimiao.js
+^https?:\/\/baimiao\.uzero\.cn\/api\/v\d\.user\/appLaunchWithUser$ url script-response-body https://raw.githubusercontent.com/nameldk/rules/master/qx/js/baimiao.js
 */
 
 let obj = JSON.parse($response.body);
